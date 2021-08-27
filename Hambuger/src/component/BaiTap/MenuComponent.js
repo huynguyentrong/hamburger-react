@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { Fragment } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import { resetAction, tangGiamSoLuong, thanhToanAction } from "../../redux/actions/BurgerActions";
 export default function MenuComponent() {
